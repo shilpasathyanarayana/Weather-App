@@ -13,8 +13,8 @@ This is the website to check whether of different cities around the world. I cre
 -Download the code from this repo
 
 - ### How to Run the project?
-    - First locate the folder(project folder) you want to open in command line
-    - Now right click on the folder and select the option `New Terminal at Folder`
-    - Click open with live server
+    - First locate the folder(project folder) you want to open in command line.
+    - Open the project in Visual studio code install live server extension.
+    - right click any were in html file and click on open with live server.
     - Thats It! 
 
