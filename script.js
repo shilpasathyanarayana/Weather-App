@@ -1,5 +1,6 @@
 const apiKey = "b1a87b4802856f65eecd224047f3e2e6";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="; //q stands for query and it is standerd
+// for all the api that provide search functionality
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
@@ -7,7 +8,7 @@ const weatherIcon = document.querySelector(".weather-icon");
 
 async function checkWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
-
+// https://api.openweathermap.org/data/2.5/weather?units=metric&q=edmonton&appid=b1a87b4802856f65eecd224047f3e2e6
 
     var data = await response.json();  //this data will have all the information about the weather for all the city
 
